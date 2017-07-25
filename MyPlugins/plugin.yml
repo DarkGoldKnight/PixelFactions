@@ -3,3 +3,11 @@ version: 1.0.0
 author: DarkGoldKnight
 api: 3.0.0
 main: DarkGoldKnight\PixelFactions\MyPlugin
+commands:
+  hi:
+    description: Send back a message
+    usage: /greet <usage here>
+    aliases: [hey, hi]
+  another-command:
+    description: This is another command
+    usage: /another-command <argument> <another argument>
